@@ -17,7 +17,7 @@ describe('Create User Page', () => {
   it('should create a new user with valid details', () => {
     const uniqueEmail = `user${Date.now()}@test.com`;
     const uniqueName = `User${Date.now()}`;
-        cy.get('[data-testid="open-register-view"]').click()
+    cy.get('[data-testid="open-register-view"]').click()
     cy.get('[data-testid="register-email"]').type(uniqueEmail);
     cy.get('[data-testid="register-name"]').type(uniqueName);
     cy.get('[data-testid="register-password"]').type('TestPassword123!');
@@ -29,12 +29,12 @@ describe('Create User Page', () => {
   it('should show validation errors for missing fields', () => {
     cy.get('[data-testid="open-register-view"]').click()
     cy.get('[data-testid="register-submit"]').click();
-    cy.get('.invalid-feedback').should('contain','Email address is required')
-    cy.get('.invalid-feedback').should('contain','Password is required')
-    cy.get('.invalid-feedback').should('contain','Confirm Password is required')
-    cy.get('.invalid-feedback').should('contain','User name is required')
-  
-});
+    cy.get('.invalid-feedback').should('contain', 'Email address is required')
+    cy.get('.invalid-feedback').should('contain', 'Password is required')
+    cy.get('.invalid-feedback').should('contain', 'Confirm Password is required')
+    cy.get('.invalid-feedback').should('contain', 'User name is required')
+
+  });
 
 });
 
