@@ -105,8 +105,16 @@ Every push or pull request to the `main` branch will automatically:
 
 You’ll find the workflow file ready to go at `.github/workflows/cypress-tests.yml`.  
 
+  
 
 
 
 
+<img width="1608" height="808" alt="Screenshot 2025-07-25 140135" src="https://github.com/user-attachments/assets/c3cb5f9b-1aad-41e1-93a1-4515e2a95004" />
 
+
+<img width="2800" height="1537" alt="Screenshot 2025-07-25 140207" src="https://github.com/user-attachments/assets/e3039745-c2b5-4ff1-845b-6debc10a938f" />
+
+<img width="2793" height="1003" alt="Screenshot 2025-07-25 140448" src="https://github.com/user-attachments/assets/c959f458-109c-4408-b2e9-e35ddaebe12d" />
+
+<img width="2845" height="1480" alt="Screenshot 2025-07-25 140501" src="https://github.com/user-attachments/assets/e2db1bb9-62ee-4b55-8563-b510669da663" />
